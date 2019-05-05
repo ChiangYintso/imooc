@@ -7,13 +7,15 @@ verify_ssl = true
 pylint = "*"
 flake8 = "*"
 v = {editable = true,version = "*"}
+yapf = "*"
 
 [packages]
 flask = "*"
 flask-sqlalchemy = "*"
 watchdog = "*"
-sqlalchemy = "*"
 pymysql = "*"
+flask-script = "*"
+python-dotenv = "*"
 
 [requires]
 python_version = "3.7"
